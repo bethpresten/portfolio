@@ -60,7 +60,7 @@
     "name": "Fitness Tracker",
     "image": "./assets/portfolio-images/Fitness-Tracker.gif",
     "alt": "Fitness Tracker",
-    "description": "Student",
+    "description": "App that allows user to track their exercise utilizing MongoDB, NoSQL, Heroku for deployment.  The app accumulates inputted exercise and tracks the exercises day by day by type (either muscular fitness or cardiovascular).",
     "link": "https://github.com/bethpresten/fitness-tracker"
   }
 ]
