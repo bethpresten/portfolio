@@ -1,6 +1,6 @@
 // import Navbar from "./components/Navbar/Navbar";
 // import Card from "./components/Card/Card";
-import { BrowserRouter as Router, Route, Switch } from "react-router-dom";
+import { HashRouter as Router, Route, Switch } from "react-router-dom";
 import Home from "./containers/Home/Home";
 import About from "./containers/About/About";
 import Contact from "./containers/Contact/Contact";
