@@ -1,0 +1,33 @@
+#form-container {
+  background-color: #e6e8f5;
+  border-radius: 15px;
+  margin: 10px;
+  font-family: "Cormorant", serif;
+  text-align: center;
+}
+
+input,
+textarea {
+  padding: 10px;
+  margin: 10px;
+}
+
+button {
+  background-color: #cedafb;
+  color: black;
+  font-family: "Kaushan Script", cursive;
+  border-radius: 8px;
+  padding: 5px;
+  margin: 10px;
+}
+
+.row {
+  padding: 20px;
+  margin: 10px;
+}
+
+#submit-form-button {
+  background-color: #cedafb;
+  color: black;
+  font-family: "Kaushan Script", cursive;
+}
