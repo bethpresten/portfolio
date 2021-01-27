@@ -9,7 +9,7 @@ const Card = ({ title, link, image, description, alt }) => {
           <h5 className="card-title">{title}</h5>
           <p className="card-text">{description}</p>
           <a href="{link}" className="btn btn-primary">
-            Go somewhere
+            Github Repo
           </a>
         </div>
       </div>
