@@ -2,49 +2,46 @@ import React from "react";
 // import { Link } from "react-router-dom";
 // import Footer from "../../components/Footer";
 // import assets from "../../../public/assets/portfolio-images";
+import "./Home.css";
 
 const Home = () => {
   return (
     <>
-      <div className="container-fluid">
-        <div className="row">
-          <div className="col-sm-3">
-            <img
-              src="../../../public/assets/portfolio-images/portfolio-picture.jpg"
-              alt="Beth P running"
-              id="biopic"
-            />
-          </div>
-          <div className="col-sm-1"></div>
-          <div className="col-sm-7">
-            <h1>A Snapshot of Beth Presten</h1>
-            <p>
-              Born, raised, and reside in metro-Atlanta. Philosophy: "never be
-              outworked!" Former health/physical education teacher. Alma maters:
-              Georgia Institute of Technology, Valdosta State University,
-              University of Georgia, Georgia State University. Hobbies: running,
-              fitness, learning, reading. Mom to two boys, married 18 years.
-              Favorite thing about coding: the objectivity; creating a line of
-              code and seeing its success immediately.
-            </p>
-          </div>
+      <div className="container" id="hide">
+        <div className="row justify-content-center">
+          <button className="btn btn-outline" id="about-me">
+            Beth Presten
+          </button>
         </div>
       </div>
-      <div className="container">
+      <div className="container" id="brand-statement">
         <div className="row">
-          <div className="col-sm-3" id="philosophy">
-            <p>Philosophy: Never Be Outworked!</p>
-          </div>
-          <div className="col-sm-3" id="passion">
-            <p>Passion: Fitness, health, running</p>
-          </div>
-          <div className="col-sm-3" id="competitive">
-            <p>Competitive: With myself and with others!</p>
+          <div className="col-sm">
+            <h4>Brand Statement</h4>
+            <p>
+              Full stack web developer leveraging marketing and sales background
+              to build quality user experiences in mobile and web applications.
+              Earned a certificate in full stack development from Georgia Tech,
+              enhancing my skills in responsive web design JavaScript, React.js,
+              Node.js, and MySQL. Successfully developed a revenue generating
+              startup 3rd party fitness organization, which grew a 4K+ social
+              media following and partnerships with industry leading software
+              and fitness businesses. Passionate about creating life-enhancing
+              user experiences and collaborating with others to develop
+              meaningful mobile and web applications. Positioned to provide
+              unique perspectives on how end users interact with websites and
+              software platforms by leveraging background in consumer product
+              goods sales and marketing with industry leading brands.
+            </p>
+            <ul>
+              Soft skills include verbal and written communication, enthusiasm
+              and positivity, and a competitive spirit to bring the best out of
+              myself and those with whom I work.
+            </ul>
           </div>
         </div>
       </div>
     </>
-
     /* // <>
 
     //   <div className="row">
