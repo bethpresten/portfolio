@@ -1,4 +1,5 @@
 import React from "react";
+import "./About.css";
 
 const About = () => {
   return (
@@ -7,7 +8,7 @@ const About = () => {
         <div className="row">
           <div className="col-sm-3">
             <img
-              src="../../../public/assets/portfolio-images/portfolio-picture.jpg"
+              src="./assets/portfolio-images/portfolio-picture.jpg"
               alt="Beth P running"
               id="biopic"
             />
@@ -27,7 +28,7 @@ const About = () => {
           </div>
         </div>
       </div>
-      <div className="container">
+      {/* <div className="container">
         <div className="row">
           <div className="col-sm-3" id="philosophy">
             <p>Philosophy: Never Be Outworked!</p>
@@ -39,7 +40,7 @@ const About = () => {
             <p>Competitive: With myself and with others!</p>
           </div>
         </div>
-      </div>
+      </div> */}
     </>
   );
 };
