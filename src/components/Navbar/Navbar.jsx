@@ -4,9 +4,6 @@ import { Link, NavLink } from "react-router-dom";
 function Navbar() {
   return (
     <nav className="navbar navbar-expand-lg navbar-light bg-light">
-      {/* <a className="navbar-brand" href="/">
-        Beth Presten
-      </a> */}
       <Link to="/" className="navbar-brand">
         Beth Presten
       </Link>
@@ -25,17 +22,11 @@ function Navbar() {
       <div className="collapse navbar-collapse" id="navbarSupportedContent">
         <ul className="navbar-nav mr-auto">
           <li className="nav-item">
-            {/* <a className="nav-link" href="/">
-              About
-            </a> */}
             <NavLink to="/about" className="nav-link" activeClassName="active">
               About
             </NavLink>
           </li>
           <li className="nav-item">
-            {/* <a className="nav-link" href="/">
-              Contact
-            </a> */}
             <NavLink
               to="/contact"
               className="nav-link"
@@ -45,6 +36,9 @@ function Navbar() {
             </NavLink>
           </li>
         </ul>
+        <Link className="btn btn-primary" to="/about">
+          Read About Me
+        </Link>
       </div>
     </nav>
   );

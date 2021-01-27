@@ -19,6 +19,7 @@ function App() {
           <Route path="/" component={Home} />
         </Switch>
       </Router>
+      <Footer />
     </div>
 
   );
