@@ -36,6 +36,15 @@ function Navbar() {
               Contact
             </NavLink>
           </li>
+          <li>
+            <NavLink
+              to="/portfolio"
+              className="nav-link"
+              activeClassName="active"
+            >
+              Portfolio
+            </NavLink>
+          </li>
         </ul>
       </div>
     </nav>
