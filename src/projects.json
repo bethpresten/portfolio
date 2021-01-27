@@ -3,42 +3,64 @@
     "id": 1,
     "name": "Track Finder App",
     "image": "./assets/portfolio-images/Track Finder.gif",
+    "alt": "track finder app",
     "description": "Have you ever been so frustrated to arrive at a running track only to find it closed? Application utilizing npm packages, express-handlebars, sequelize, MySQL. User input allows functionality to add a track, edit a track, or delete a track.",
     "link": "https://github.com/bethpresten/Track-Finder-App"
   },
   {
     "id": 2,
-    "name": "Senior Travel Covid Care",
+    "name": "Senior Travel COVID Care",
     "image": "./assets/portfolio-images/Senior Travel Covid Care.gif",
+    "alt": "Senior Travel COVID Care",
     "description": "Application that utilizes a medicare and physician registry API. Target audience is senior citizens. Two APIs were used in the creation as well as a link to Google maps upon selection of a physician.",
     "link": "https://github.com/bethpresten/Senior-Travel-Covid-Care"
   },
   {
     "id": 3,
-    "name": "Squidward",
-    "image": "https://vignette2.wikia.nocookie.net/fictionalcharacters/images/a/ac/Squidward.png/revision/latest?cb=20131121012626",
-    "description": "Cashier",
-    "link": "An Easter Island Head"
+    "name": "Eat-Da-Burgers App",
+    "image": "./assets/portfolio-images/All the yummy burgers!.gif",
+    "alt": "Eat Da Burgers App",
+    "description": "JavaScript + JQuery application that utilizes the open weather API. Application stores user info upon button click to deliver the current and 5-day forecast for the inputted city. Previous searched city is saved as a button so the user can search the same city with ease.",
+    "link": "https://github.com/bethpresten/eat-da-burger"
   },
   {
     "id": 4,
-    "name": "Dexter",
-    "image": "https://s-media-cache-ak0.pinimg.com/originals/fe/32/49/fe32495d45283cd6860ae122f0aeaad9.png",
-    "description": "Boy Genius",
-    "link": "A Secret Laboratory"
+    "name": "Coding Quiz",
+    "image": "./assets/portfolio-images/CodingQuiz.png",
+    "alt": "Coding Quiz",
+    "description": "JavaScript created application that utilizes local storage and timer functionalities. User is scored based on time elapsed and correct versus incorrect questions. Scores are saved and generated on a high scores html.",
+    "link": "https://github.com/bethpresten/CodingQuiz-Presten"
   },
   {
     "id": 5,
-    "name": "Courage",
-    "image": "https://vignette4.wikia.nocookie.net/vsbattles/images/3/39/Courage-0.png/revision/latest?cb=20160719055423",
-    "description": "A Cowardly Dog",
-    "link": "Nowhere, Kansas"
+    "name": "Password Generator",
+    "image": "./assets/portfolio-images/Password Generator.gif",
+    "alt": "Password Generator",
+    "description": "JavaScript generated application that utilizes user input to deliver a random password.",
+    "link": "https://github.com/bethpresten/password-generator-Presten"
   },
   {
     "id": 6,
-    "name": "Doug Funnie",
-    "image": "https://vignette1.wikia.nocookie.net/doug/images/3/3b/Doug001.gif/revision/latest?cb=20110807170511",
+    "name": "Weather Dashboard",
+    "image": "./assets/portfolio-images/weatherapi.png",
+    "alt": "Weather Dashboard",
     "description": "Student",
-    "link": "Bluffington"
+    "link": "https://github.com/bethpresten/weatherAPI-presten"
+  },
+  {
+    "id": 7,
+    "name": "Employee Directory",
+    "image": "./assets/portfolio-images/employee-directory.gif",
+    "alt": "Employee Directory",
+    "description": "Basic user directory built using React and a third party API.  App is able to sort and filter information.",
+    "link": "https://github.com/bethpresten/react-employee-directory"
+  },
+  {
+    "id": 7,
+    "name": "Fitness Tracker",
+    "image": "./assets/portfolio-images/Fitness-Tracker.gif",
+    "alt": "Fitness Tracker",
+    "description": "Student",
+    "link": "https://github.com/bethpresten/fitness-tracker"
   }
 ]
