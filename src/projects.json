@@ -2,7 +2,7 @@
   {
     "id": 1,
     "name": "Track Finder App",
-    "image": "./assets/portfolio-images/Track Finder.gif",
+    "image": "../../assets/portfolio-images/Track_Finder.gif",
     "alt": "track finder app",
     "description": "Have you ever been so frustrated to arrive at a running track only to find it closed? Application utilizing npm packages, express-handlebars, sequelize, MySQL. User input allows functionality to add a track, edit a track, or delete a track.",
     "link": "https://github.com/bethpresten/Track-Finder-App"
@@ -18,7 +18,7 @@
   {
     "id": 3,
     "name": "Eat-Da-Burgers App",
-    "image": "./assets/portfolio-images/All the yummy burgers!.gif",
+    "image": "https://github.com/bethpresten/eat-da-burger/blob/main/public/assets/burger-app.gif?raw=true",
     "alt": "Eat Da Burgers App",
     "description": "JavaScript + JQuery application that utilizes the open weather API. Application stores user info upon button click to deliver the current and 5-day forecast for the inputted city. Previous searched city is saved as a button so the user can search the same city with ease.",
     "link": "https://github.com/bethpresten/eat-da-burger"
@@ -42,7 +42,7 @@
   {
     "id": 6,
     "name": "Weather Dashboard",
-    "image": "./assets/portfolio-images/weatherapi.png",
+    "image": "https://github.com/bethpresten/weatherAPI-presten/raw/master/assets/weatherapi.png",
     "alt": "Weather Dashboard",
     "description": "Student",
     "link": "https://github.com/bethpresten/weatherAPI-presten"
@@ -50,7 +50,7 @@
   {
     "id": 7,
     "name": "Employee Directory",
-    "image": "./assets/portfolio-images/employee-directory.gif",
+    "image": "https://github.com/bethpresten/react-employee-directory/raw/main/public/assets/employee-directory.gif",
     "alt": "Employee Directory",
     "description": "Basic user directory built using React and a third party API.  App is able to sort and filter information.",
     "link": "https://github.com/bethpresten/react-employee-directory"
@@ -58,7 +58,7 @@
   {
     "id": 7,
     "name": "Fitness Tracker",
-    "image": "./assets/portfolio-images/Fitness-Tracker.gif",
+    "image": "https://github.com/bethpresten/fitness-tracker/raw/main/assets/Fitness-Tracker.gif",
     "alt": "Fitness Tracker",
     "description": "App that allows user to track their exercise utilizing MongoDB, NoSQL, Heroku for deployment.  The app accumulates inputted exercise and tracks the exercises day by day by type (either muscular fitness or cardiovascular).",
     "link": "https://github.com/bethpresten/fitness-tracker"

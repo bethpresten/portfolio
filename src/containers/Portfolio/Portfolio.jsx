@@ -2,6 +2,10 @@ import React from "react";
 import "./Portfolio.css";
 import ProjectCard from "../../components/ProjectCard/ProjectCard";
 import projects from "../../projects.json";
+import trackImage from "../../assets/portfolio-images/Track_Finder.gif";
+import seniorImage from "../../assets/portfolio-images/Senior-Travel-Covid-Care.gif";
+import quizImage from "../../assets/portfolio-images/CodingQuiz.png";
+import passwordImage from "../../assets/portfolio-images/Password-Generator.gif";
 
 function Portfolio() {
   return (
@@ -41,7 +45,7 @@ function Portfolio() {
             id={projects[0].id}
             key={projects[0].id}
             name={projects[0].name}
-            image={projects[0].image}
+            image={trackImage}
             alt={projects[0].alt}
             description={projects[0].description}
             link={projects[0].link}
@@ -52,7 +56,7 @@ function Portfolio() {
             id={projects[1].id}
             key={projects[1].id}
             name={projects[1].name}
-            image={projects[1].image}
+            image={seniorImage}
             alt={projects[1].alt}
             description={projects[1].description}
             link={projects[1].link}
@@ -76,7 +80,7 @@ function Portfolio() {
             id={projects[3].id}
             key={projects[3].id}
             name={projects[3].name}
-            image={projects[3].image}
+            image={quizImage}
             alt={projects[3].alt}
             description={projects[3].description}
             link={projects[3].link}
@@ -89,7 +93,7 @@ function Portfolio() {
             id={projects[4].id}
             key={projects[4].id}
             name={projects[4].name}
-            image={projects[4].image}
+            image={passwordImage}
             alt={projects[4].alt}
             description={projects[4].description}
             link={projects[4].link}
