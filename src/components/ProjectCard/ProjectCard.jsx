@@ -1,6 +1,8 @@
 import React from "react";
+import "./ProjectCard.css";
+// import { Link } from "react-router-dom";
 
-const Card = ({ name, link, image, description, alt }) => {
+const ProjectCard = ({ name, link, image, description, alt }) => {
   return (
     <>
       <div className="card" style={{ width: "18rem" }}>
@@ -8,7 +10,10 @@ const Card = ({ name, link, image, description, alt }) => {
         <div className="card-body">
           <h5 className="card-title">{name}</h5>
           <p className="card-text">{description}</p>
-          <a href="{link}" className="btn btn-primary">
+          {/* <Link to={link}>
+            <button type="button">Github Repo</button>
+          </Link> */}
+          <a href={link} className="btn">
             Github Repo
           </a>
         </div>
@@ -17,4 +22,4 @@ const Card = ({ name, link, image, description, alt }) => {
   );
 };
 
-export default Card;
+export default ProjectCard;
