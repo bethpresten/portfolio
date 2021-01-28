@@ -1,19 +1,26 @@
 {
   "files": {
-    "main.js": "/portfolio/static/js/main.5bff31b0.chunk.js",
-    "main.js.map": "/portfolio/static/js/main.5bff31b0.chunk.js.map",
-    "runtime-main.js": "/portfolio/static/js/runtime-main.f85ac417.js",
-    "runtime-main.js.map": "/portfolio/static/js/runtime-main.f85ac417.js.map",
-    "static/js/2.b2ceaedf.chunk.js": "/portfolio/static/js/2.b2ceaedf.chunk.js",
-    "static/js/2.b2ceaedf.chunk.js.map": "/portfolio/static/js/2.b2ceaedf.chunk.js.map",
-    "static/js/3.023d4110.chunk.js": "/portfolio/static/js/3.023d4110.chunk.js",
-    "static/js/3.023d4110.chunk.js.map": "/portfolio/static/js/3.023d4110.chunk.js.map",
+    "main.css": "/portfolio/static/css/main.5f397035.chunk.css",
+    "main.js": "/portfolio/static/js/main.23dc3943.chunk.js",
+    "main.js.map": "/portfolio/static/js/main.23dc3943.chunk.js.map",
+    "runtime-main.js": "/portfolio/static/js/runtime-main.82157018.js",
+    "runtime-main.js.map": "/portfolio/static/js/runtime-main.82157018.js.map",
+    "static/js/2.39548685.chunk.js": "/portfolio/static/js/2.39548685.chunk.js",
+    "static/js/2.39548685.chunk.js.map": "/portfolio/static/js/2.39548685.chunk.js.map",
+    "static/js/3.4a6eb498.chunk.js": "/portfolio/static/js/3.4a6eb498.chunk.js",
+    "static/js/3.4a6eb498.chunk.js.map": "/portfolio/static/js/3.4a6eb498.chunk.js.map",
     "index.html": "/portfolio/index.html",
-    "static/js/2.b2ceaedf.chunk.js.LICENSE.txt": "/portfolio/static/js/2.b2ceaedf.chunk.js.LICENSE.txt"
+    "static/css/main.5f397035.chunk.css.map": "/portfolio/static/css/main.5f397035.chunk.css.map",
+    "static/js/2.39548685.chunk.js.LICENSE.txt": "/portfolio/static/js/2.39548685.chunk.js.LICENSE.txt",
+    "static/media/CodingQuiz.6ec8e16d.png": "/portfolio/static/media/CodingQuiz.6ec8e16d.png",
+    "static/media/Password-Generator.2c89fa3a.gif": "/portfolio/static/media/Password-Generator.2c89fa3a.gif",
+    "static/media/Senior-Travel-Covid-Care.76e451a8.gif": "/portfolio/static/media/Senior-Travel-Covid-Care.76e451a8.gif",
+    "static/media/Track_Finder.0d31451b.gif": "/portfolio/static/media/Track_Finder.0d31451b.gif"
   },
   "entrypoints": [
-    "static/js/runtime-main.f85ac417.js",
-    "static/js/2.b2ceaedf.chunk.js",
-    "static/js/main.5bff31b0.chunk.js"
+    "static/js/runtime-main.82157018.js",
+    "static/js/2.39548685.chunk.js",
+    "static/css/main.5f397035.chunk.css",
+    "static/js/main.23dc3943.chunk.js"
   ]
 }
