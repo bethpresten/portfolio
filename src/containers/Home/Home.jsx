@@ -7,13 +7,6 @@ import "./Home.css";
 const Home = () => {
   return (
     <>
-      <div className="container" id="hide">
-        <div className="row justify-content-center">
-          <button className="btn btn-outline" id="about-me">
-            Beth Presten
-          </button>
-        </div>
-      </div>
       <div className="container" id="brand-statement">
         <div className="row">
           <div className="col-sm">
