@@ -13,7 +13,12 @@ const Contact = (props) => {
   };
   return (
     <div>
-      <div className="container-fluid" id="form-container">
+      <form
+        className="container-fluid"
+        id="form-container"
+        action="https://formspree.io/f/meqpdjqp"
+        method="post"
+      >
         <div className="row">
           <div className="col-sm">
             <h3 id="form-heading">Let's Work Together!</h3>
@@ -27,31 +32,39 @@ const Contact = (props) => {
               <input
                 type="text"
                 className="form-control"
-                id="formGroupExampleInput"
+                // id="formGroupExampleInput"
                 placeholder="Name"
+                name="Name"
+                id="name"
               />
               {/* </div> */}
               <div className="form-group">
                 <input
                   type="text"
                   className="form-control"
-                  id="formGroupExampleInput2"
+                  // id="formGroupExampleInput2"
                   placeholder="Email address"
+                  name="Email"
+                  id="email"
                 />
               </div>
               <div className="form-group">
                 <textarea
                   className="form-control"
-                  id="exampleFormControlTextarea1"
+                  // id="exampleFormControlTextarea1"
                   rows="3"
                   placeholder="Message"
+                  name="Message"
+                  id="message"
                 ></textarea>
               </div>
-              <button onClick={handleSubmitForm}>Submit</button>
+              <button type="submit" onClick={handleSubmitForm}>
+                Submit
+              </button>
             </div>
           </div>
         </div>
-      </div>
+      </form>
     </div>
   );
 };
