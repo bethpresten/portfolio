@@ -24,11 +24,11 @@ const Contact = (props) => {
             <h3 id="form-heading">Let's Work Together!</h3>
 
             <div className="form-group">
-              <form
+              {/* <form
                 action="mailto:bethpresten@gmail.com"
                 method="post"
                 enctype="text/plain"
-              />
+              /> */}
               <input
                 type="text"
                 className="form-control"
