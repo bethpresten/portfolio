@@ -2,15 +2,15 @@ import React from "react";
 import "./Contact.css";
 
 const Contact = (props) => {
-  const handleSubmitForm = (e) => {
-    e.preventDefault();
-    // api call
-    // wait for the call to resolve
-    // inside .then I want to confirm
-    //  redirect to home page
+  // const handleSubmitForm = (e) => {
+  //   e.preventDefault();
+  //   // api call
+  //   // wait for the call to resolve
+  //   // inside .then I want to confirm
+  //   //  redirect to home page
 
-    props.history.push("about");
-  };
+  //   props.history.push("about");
+  // };
   return (
     <div>
       <form
@@ -58,7 +58,7 @@ const Contact = (props) => {
                   id="message"
                 ></textarea>
               </div>
-              <button type="submit" onClick={handleSubmitForm} value="Send">
+              <button type="submit" value="Send">
                 Submit
               </button>
             </div>
