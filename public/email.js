@@ -21,7 +21,7 @@ app.post("/contact", function (req, res) {
     var transporter = nodemailer.createTransport({
         service: 'gmail',
         auth: {
-        \// mask username and password with env
+            // mask username and password with env
             user: 'prestobeth462@gmail.com',
             pass: 'Blahblah117'
         }

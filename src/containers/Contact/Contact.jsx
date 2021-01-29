@@ -45,7 +45,7 @@ const Contact = (props) => {
                   // id="formGroupExampleInput2"
                   placeholder="Email address"
                   name="Email"
-                  id="email"
+                  id="_replyto"
                 />
               </div>
               <div className="form-group">
@@ -58,7 +58,7 @@ const Contact = (props) => {
                   id="message"
                 ></textarea>
               </div>
-              <button type="submit" onClick={handleSubmitForm}>
+              <button type="submit" onClick={handleSubmitForm} value="Send">
                 Submit
               </button>
             </div>
