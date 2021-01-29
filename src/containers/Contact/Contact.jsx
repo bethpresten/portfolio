@@ -16,7 +16,7 @@ const Contact = (props) => {
       <form
         className="container-fluid"
         id="form-container"
-        action="https://formspree.io/f/meqpdjqp"
+        action="https://formspree.io/f/maylkwno"
         method="post"
       >
         <div className="row">
