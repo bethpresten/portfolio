@@ -58,7 +58,7 @@ const Contact = (props) => {
                   id="message"
                 ></textarea>
               </div>
-              <button type="submit" value="Send">
+              <button className="btn" type="submit" value="Send">
                 Submit
               </button>
             </div>

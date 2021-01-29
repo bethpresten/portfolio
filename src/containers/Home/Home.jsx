@@ -6,7 +6,7 @@ import "./Home.css";
 
 const Home = () => {
   return (
-    <>
+    <div>
       <div className="container">
         <div className="row">
           <div className="col-sm">
@@ -34,7 +34,7 @@ const Home = () => {
           </div>
         </div>
       </div>
-    </>
+    </div>
     /* // <>
 
     //   <div className="row">

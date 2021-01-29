@@ -7,9 +7,14 @@ import Portfolio from "./containers/Portfolio/Portfolio";
 import Navbar from "./components/Navbar/Navbar";
 import Footer from "./components/Footer/Footer";
 
+const styles = {
+  backgroundImage: "url('https://wallpapercave.com/wp/wp3408013.jpg')",
+  alignItems: "center"
+}
+
 function App() {
   return (
-    <div className="App">
+    <div className="App" style={styles}>
       <Router>
         <Navbar />
         <Switch>

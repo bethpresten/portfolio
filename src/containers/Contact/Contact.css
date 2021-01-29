@@ -1,5 +1,4 @@
 #form-container {
-  background-color: #e6e8f5;
   border-radius: 15px;
   margin: 10px;
   font-family: "Cormorant", serif;
@@ -12,13 +11,15 @@ textarea {
   margin: 10px;
 }
 
-button {
-  background-color: #cedafb;
+.btn:hover {
+  background-color: #85d388;
+  color: grey;
+}
+.btn {
+  background-color: #ee85b6;
   color: black;
   font-family: "Kaushan Script", cursive;
-  border-radius: 8px;
-  padding: 5px;
-  margin: 10px;
+  border-color: black;
 }
 
 .row {
