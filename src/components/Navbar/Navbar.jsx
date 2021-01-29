@@ -4,7 +4,7 @@ import "./Navbar.css";
 
 function Navbar() {
   return (
-    <nav className="navbar navbar-expand-lg navbar-light bg-light">
+    <nav className="navbar navbar-expand-sm navbar-light">
       <Link to="/" className="navbar-brand">
         Beth Presten
       </Link>
@@ -16,6 +16,7 @@ function Navbar() {
         aria-controls="navbarSupportedContent"
         aria-expanded="false"
         aria-label="Toggle navigation"
+        // onClick={this.toggleMenu}
       >
         <span className="navbar-toggler-icon"></span>
       </button>
