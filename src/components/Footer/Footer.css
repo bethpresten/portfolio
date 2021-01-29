@@ -1,13 +1,14 @@
 footer {
   text-align: center;
-  background-color: #cbe8fe;
+  background-color: #bafab5;
   border-radius: 8px;
-  /* position: fixed; */
+  position: sticky;
   left: 0;
   bottom: 0;
   width: 100%;
-  padding: 20px;
+  padding: 5px;
   font-family: "Kaushan Script", cursive;
+  margin-top: 10%;
 }
 
 i {

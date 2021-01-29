@@ -29,8 +29,18 @@ h3 {
 }
 
 #biopic {
-  height: 100%;
-  width: 150%;
+  height: 300px;
+  width: 300px;
   border-radius: 20px;
-  float: left;
+  margin: 20px;
 }
+
+#bio {
+  margin: 20px;
+}
+/* 
+#biopic {
+  width: inherit;
+  height: inherit;
+  object-fit: contain;
+} */

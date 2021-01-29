@@ -13,8 +13,8 @@ const About = () => {
               id="biopic"
             />
           </div>
-          <div className="col-sm-1"></div>
-          <div className="col-sm-7">
+          <div className="col-sm-2"></div>
+          <div className="col-sm-6" id="bio">
             <h1>A Snapshot of Beth Presten</h1>
             <p>
               Born, raised, and reside in metro-Atlanta. Philosophy: "never be

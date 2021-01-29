@@ -7,7 +7,7 @@ import "./Home.css";
 const Home = () => {
   return (
     <>
-      <div className="container" id="brand-statement">
+      <div className="container">
         <div className="row">
           <div className="col-sm">
             <h4>Brand Statement</h4>
