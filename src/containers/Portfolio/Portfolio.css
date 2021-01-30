@@ -26,3 +26,7 @@ img {
   border-radius: 12px;
   width: 90%;
 }
+
+.col {
+  align-items: center;
+}
