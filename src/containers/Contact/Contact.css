@@ -9,6 +9,7 @@ input,
 textarea {
   padding: 10px;
   margin: 10px;
+  border-radius: 8px;
 }
 
 .btn:hover {
@@ -32,4 +33,13 @@ textarea {
   background-color: #cedafb;
   color: black;
   font-family: "Kaushan Script", cursive;
+}
+
+.container {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  height: 80%;
+  width: 80%;
 }

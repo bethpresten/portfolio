@@ -9,7 +9,8 @@ import Footer from "./components/Footer/Footer";
 
 const styles = {
   backgroundImage: "url('https://wallpapercave.com/wp/wp3408013.jpg')",
-  alignItems: "center"
+  alignItems: "center",
+  height: "1000px"
 }
 
 function App() {
