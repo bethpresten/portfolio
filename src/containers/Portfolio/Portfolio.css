@@ -24,9 +24,23 @@ img {
 .row {
   background-color: #cedafb;
   border-radius: 12px;
-  width: 90%;
+  width: 99%;
 }
 
 .col {
   align-items: center;
+}
+
+.card {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 40%;
+}
+
+#portfolio-container {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 95%;
 }

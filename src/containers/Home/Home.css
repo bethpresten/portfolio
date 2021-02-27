@@ -1,15 +1,96 @@
-/* h1 {
-  font-family: "Kaushan Script", cursive;
-  text-align: center;
-  padding: 20px;
-} */
-
-/* body {
-  font-family: "Kaushan Script", cursive;
-  text-align: center;
-  font-size: 20px;
-} */
 h3 {
   font-family: "Cormorant", serif;
   text-align: center;
+}
+
+.parallax {
+  /* background-image: url("./images/background1.jpg"); */
+  height: 100vh;
+  /* height: 700px; */
+  /* min-height: 900px; */
+  /* background: transparent; */
+  background-attachment: fixed;
+  background-color: #c8dedf;
+  background-position: left;
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 100%;
+  z-index: -999;
+}
+
+header {
+  width: 100%;
+  height: 95%;
+  position: relative;
+  overflow: hidden;
+  background-color: #cedafb;
+  border-radius: 12px;
+}
+header:after {
+  content: "";
+  position: absolute;
+  width: 100%;
+  height: 50%;
+  left: 0;
+  top: 0;
+  z-index: 25;
+}
+.i-am-beth {
+  font-size: 60px;
+  animation-duration: 300ms;
+  animation-timing-function: ease-in-out;
+  position: absolute;
+  text-align: left;
+  top: calc(50% - 15rem);
+  width: 100%;
+  line-height: 4rem;
+  z-index: 19;
+  padding: 5%;
+}
+
+.i-am-a {
+  animation-duration: 300ms;
+  font-size: 45px;
+  animation-timing-function: ease-in-out;
+  position: absolute;
+  text-align: center !important;
+  top: calc(50% - 4rem);
+  width: 100%;
+  line-height: 4rem;
+  z-index: 19;
+}
+
+.web-developer {
+  animation-duration: 300ms;
+  animation-timing-function: ease-in-out;
+  position: absolute;
+  font-size: 45px;
+  margin: auto;
+  width: 100%;
+  text-align: center !important;
+  padding-right: 10px;
+  top: calc(60%);
+  line-height: 6rem;
+  color: black;
+}
+
+.software-engineer {
+  animation-duration: 300ms;
+  animation-timing-function: ease-in-out;
+  position: absolute;
+  font-size: 45px;
+  margin: auto;
+  width: 100%;
+  bottom: -180px;
+  left: 20%;
+  line-height: 6rem;
+  color: black;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+.img-responsive:hover {
+  transform: scale(1.05);
 }

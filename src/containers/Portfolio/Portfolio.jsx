@@ -9,7 +9,7 @@ import passwordImage from "../../assets/portfolio-images/Password-Generator.gif"
 
 function Portfolio() {
   return (
-    <div className="container-fluid">
+    <div className="container-fluid" id="portfolio-container">
       <div className="row">
         <div className="col-sm-12">
           <h1>Portfolio</h1>

@@ -1,16 +1,69 @@
-import React from "react";
-// import { Link } from "react-router-dom";
-// import Footer from "../../components/Footer";
-// import assets from "../../../public/assets/portfolio-images";
+import React, { useEffect } from "react";
 import "./Home.css";
 
 const Home = () => {
+  useEffect(() => {
+    const main = document.querySelector(".main");
+    const nav = document.querySelector(".navbar");
+    const translate = document.querySelectorAll(".translate");
+    const engineerHeader = document.querySelector(".software-engineer");
+    const webDevHeader = document.querySelector(".web-developer");
+    const iAm = document.querySelector(".i-am-a");
+    const iAmBeth = document.querySelector(".i-am-beth");
+    const header = document.querySelector("header");
+    let header_height = header.offsetHeight;
+    const offset = "";
+    window.onscroll = function () {
+      if (window.pageYOffset > offset) {
+        nav.classList.remove("bottom-nav");
+        nav.classList.add("top-nav");
+      } else {
+        nav.classList.add("bottom-nav");
+        nav.classList.remove("top-nav");
+      }
+    };
+
+    window.addEventListener("scroll", () => {
+      let scroll = window.pageYOffset;
+      console.log(scroll);
+      console.log(header_height);
+      translate.forEach((element) => {
+        let speed = element.dataset.speed;
+        element.style.transform = `translateY(${scroll * speed}px)`;
+      });
+      webDevHeader.style.opacity = -scroll / (header_height / 10) + 2.6;
+      engineerHeader.style.opacity = -scroll / (header_height / 2) + 1.1;
+      if (scroll > 400) {
+        iAm.style.opacity = -scroll / header_height + 0.6;
+        iAmBeth.style.opacity = -scroll / header_height + 0.6;
+      } else {
+        iAm.style.opacity = 1;
+        iAmBeth.style.opacity = 1;
+      }
+    });
+  });
   return (
     <div>
       <div className="container">
-        <div className="row">
+        <header>
+          <h2 class="i-am-beth translate" data-speed=".7">
+            I'M BETH
+          </h2>
+          <h2 class="i-am-a translate" data-speed=".5">
+            & I am a
+          </h2>
+          <h2 class="web-developer translate" data-speed="-.8">
+            FULL STACK WEB DEVELOPER
+          </h2>
+          <h2 class="software-engineer translate" data-speed="-.9">
+            SOFTWARE ENGINEER
+          </h2>
+        </header>
+        <br />
+        <br />
+        <div className="row" id="brand-row">
           <div className="col-sm">
-            <h4>Brand Statement</h4>
+            <h4 class="brand-statement translate">Brand Statement</h4>
             <p>
               Full stack web developer leveraging marketing and sales background
               to build quality user experiences in mobile and web applications.
@@ -35,28 +88,6 @@ const Home = () => {
         </div>
       </div>
     </div>
-    /* // <>
-
-    //   <div className="row">
-    //     <div className="col">
-    //       <h1 className="text-center">Hello World</h1>
-    //       <p>Hoth watto jango darth darth. Leia moff lars leia sidious. Darth ewok gamorrean wampa fett. Anakin sith darth darth antilles maul antilles organa qui-gon. Secura darth organa twi'lek yoda hutt coruscant. Anakin darth wicket moff darth c-3po. Darth maul calrissian tatooine skywalker antilles ben ewok. Darth wampa dooku kessel ewok organa yoda skywalker. Leia dooku jawa solo antilles. Hoth windu antilles moff ackbar. Secura calamari alderaan skywalker organa dooku skywalker yavin. Dagobah qui-gon zabrak wedge mara windu boba luke.</p>
-    //     </div>
-    //   </div>
-    //   <div className="row">
-    //     <div className="col-sm-4">
-    //       <Card title="LinkedIn" link="http://www.linkedin.com/in/bethpresten" image="" description="This is my LinkedIn profile" alt="this is my alt text." />
-    //     </div>
-    //     <div className="col-sm-4">
-    //       <Card title="Github" linke />
-    //     </div>
-    //     <div className="col-sm-4">
-    //       <Card title="Resume" />
-    //     </div>
-    //   </div>
-    //   {/* <div><Footer /></div> */
-
-    // </> */}
   );
 };
 
