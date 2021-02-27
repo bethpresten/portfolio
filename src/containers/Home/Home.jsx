@@ -32,7 +32,7 @@ const Home = () => {
       });
       webDevHeader.style.opacity = -scroll / (header_height / 10) + 2.6;
       engineerHeader.style.opacity = -scroll / (header_height / 2) + 1.1;
-      if (scroll > 400) {
+      if (scroll > 500) {
         iAm.style.opacity = -scroll / header_height + 0.6;
         iAmBeth.style.opacity = -scroll / header_height + 0.6;
       } else {
@@ -54,7 +54,7 @@ const Home = () => {
           <h2 class="web-developer translate" data-speed="-.8">
             FULL STACK WEB DEVELOPER
           </h2>
-          <h2 class="software-engineer translate" data-speed="-.9">
+          <h2 class="software-engineer translate" data-speed="-1">
             SOFTWARE ENGINEER
           </h2>
         </header>
