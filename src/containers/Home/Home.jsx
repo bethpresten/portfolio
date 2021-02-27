@@ -3,7 +3,6 @@ import "./Home.css";
 
 const Home = () => {
   useEffect(() => {
-    const main = document.querySelector(".main");
     const nav = document.querySelector(".navbar");
     const translate = document.querySelectorAll(".translate");
     const engineerHeader = document.querySelector(".software-engineer");

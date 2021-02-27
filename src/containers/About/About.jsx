@@ -1,5 +1,6 @@
 import React from "react";
 import "./About.css";
+import PortPic from "../../assets/portfolio-images/portfolio-picture.jpg";
 
 const About = () => {
   return (
@@ -7,11 +8,7 @@ const About = () => {
       <div className="container-fluid">
         <div className="row" id="about">
           <div className="col-sm-3">
-            <img
-              src="https://scontent-atl3-1.xx.fbcdn.net/v/t1.0-9/47376630_10109365456626690_7928584094558978048_n.jpg?_nc_cat=101&ccb=2&_nc_sid=09cbfe&_nc_ohc=OXLTxhMETKkAX9K7Q1e&_nc_oc=AQlwDRvhhdPsoH2paq2j7_tvrk_SzerAKPzLeoF5nv7KnhFzLk_7RwwCW6m6yaE4_VuoYLYE4BcBxro-0iwrowYu&_nc_ht=scontent-atl3-1.xx&oh=83c59cb3675102d783d496aebb2e1603&oe=6038330E"
-              alt="Beth P running"
-              id="biopic"
-            />
+            <img src={PortPic} alt="Beth P running" id="biopic" />
           </div>
           <div className="col-sm-2"></div>
           <div className="col-sm-6" id="bio">
