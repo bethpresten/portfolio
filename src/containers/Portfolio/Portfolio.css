@@ -6,6 +6,7 @@
 #eat-da-burgers {
   height: 75%;
   width: 75%;
+  border-radius: 8px;
 }
 
 h1 {
@@ -36,11 +37,14 @@ img {
   margin-left: auto;
   margin-right: auto;
   width: 40%;
+  border-radius: 8px;
 }
 
 #portfolio-container {
   display: block;
   margin-left: auto;
   margin-right: auto;
+  margin-top: 10px;
   width: 95%;
+  overflow: visible;
 }
