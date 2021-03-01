@@ -45,16 +45,16 @@ const Home = () => {
     <div>
       <div className="container">
         <header>
-          <h2 class="i-am-beth translate" data-speed=".7">
+          <h2 className="i-am-beth translate" data-speed=".7">
             I'M BETH
           </h2>
-          <h2 class="i-am-a translate" data-speed=".5">
+          <h2 className="i-am-a translate" data-speed=".5">
             & I am a
           </h2>
-          <h2 class="web-developer translate" data-speed="-.8">
+          <h2 className="web-developer translate" data-speed="-.8">
             FULL STACK WEB DEVELOPER
           </h2>
-          <h2 class="software-engineer translate" data-speed="-1">
+          <h2 className="software-engineer translate" data-speed="-1">
             SOFTWARE ENGINEER
           </h2>
         </header>
@@ -62,7 +62,7 @@ const Home = () => {
         <br />
         <div className="row" id="brand-row">
           <div className="col-sm">
-            <h4 class="brand-statement translate">Brand Statement</h4>
+            <h4 className="brand-statement translate">Brand Statement</h4>
             <p>
               Full stack web developer leveraging marketing and sales background
               to build quality user experiences in mobile and web applications.

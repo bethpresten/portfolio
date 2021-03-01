@@ -11,7 +11,7 @@ const styles = {
   backgroundImage: "url('https://wallpapercave.com/wp/wp3408013.jpg')",
   alignItems: "center",
   height: "3000px",
-  overflow: "scroll"
+  overflow: "scroll",
 }
 
 function App() {

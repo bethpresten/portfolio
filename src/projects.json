@@ -44,7 +44,7 @@
     "name": "Weather Dashboard",
     "image": "https://github.com/bethpresten/weatherAPI-presten/raw/master/assets/weatherapi.png",
     "alt": "Weather Dashboard",
-    "description": "Student",
+    "description": "Third party API utilization that reads the user choice and populates information on the dashboard.  User can search past history, get the current asn 5-day forecast, and get a UV index.",
     "link": "https://github.com/bethpresten/weatherAPI-presten"
   },
   {
